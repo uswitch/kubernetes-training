@@ -5,8 +5,8 @@ docker:
 
 minikube:
 	minikube start
-	eval $$(minikube docker-env)
 	minikube addons enable ingress
+	echo "$$(minikube docker-env)"
 
 hosts:
 	echo "$$(minikube ip) myapp.learning.com" >> /etc/hosts
