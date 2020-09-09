@@ -1,7 +1,7 @@
 tag = "latest"
 
 docker:
-	docker image build -t myapp:$(tag) .
+	docker image build -f examples/Dockerfile -t myapp:$(tag) .
 
 minikube:
 	minikube start
