@@ -1,0 +1,13 @@
+---
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: my-configmap
+data:
+  stuff.txt : |
+      |￣￣￣￣￣￣￣|
+      |  Pizza   |
+      |＿＿＿＿＿_＿_|
+      (\__/) ||
+      (•ㅅ•) ||
+      / 　 づ
